@@ -1,0 +1,25 @@
+{
+    "name": "hedge-code/php-tasks-board",
+    "description": "An application to manage tasks written in php",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "PhpTasksBoard\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "HedgeCode",
+            "email": "contact.hedgecode@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php-64bit": "8.3.*",
+        "twig/twig": "^3.12"
+    },
+    "scripts": {
+        "serve": "@php -S 0.0.0.0:8000 -t web/"
+    }
+}
